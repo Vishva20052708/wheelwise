@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;  
+  }
+  
+  .car-description-page {
+    font-family: 'Roboto', sans-serif; 
+    margin: 20px;
+    color: #333;
+  }
+  
+  .top-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .car-overview {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .car-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+  }
+  
+  .car-detailss {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-form {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-form h3 {
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+  }
+  
+  .booking-form .form-item {
+    margin-bottom: 15px;
+  }
+  
+  .booking-form .form-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .booking-form .form-item input,
+  .booking-form .form-item textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booking-form .proceed-btn {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #1953c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-form .proceed-btn:hover {
+    background-color: #004ba7;
+  }
+  
+  .important-points {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .important-points h3 {
+    margin-bottom: 15px;
+  }
+  
+  .important-points table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .important-points td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .important-points td:first-child {
+    font-weight: bold;
+  }
+  .date-time-picker-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px; 
+  }
+  

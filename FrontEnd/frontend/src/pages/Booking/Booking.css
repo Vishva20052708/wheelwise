@@ -1,0 +1,118 @@
+.confirmation-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .confirmation-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .right-section {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-section {
+    width: 48%;
+  }
+  
+  .car-details {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .car-details-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .car-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover; /* Ensures the image fills the square without distortion */
+  }
+  
+  
+  .car-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-details {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .fare-details {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .booking-details {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .confirm-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .confirm-booking-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-booking-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .confirmation-container {
+      flex-direction: column;
+    }
+  
+    .right-section,
+    .left-section {
+      width: 100%;
+    }
+  
+    .car-details-container {
+      flex-direction: column;
+    }
+  }

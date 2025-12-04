@@ -1,0 +1,191 @@
+/* Global Styles for the Register Page */
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+  padding: 3px;
+}
+
+.image-container {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.register-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.form-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  margin-top: -100px;
+}
+
+.register-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.register-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.register-form label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.register-form input {
+  margin-bottom: 10px;
+  padding: 12px;
+  padding-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 90%;
+}
+
+.register-form input:focus {
+  border-color: #4c6aaf;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+}
+
+.register-form button {
+  padding: 15px;
+  background-color: #223675;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top:7px;
+  margin-bottom:3px;
+  
+}
+
+.register-form button:hover {
+  background-color: #1236a1;
+}
+
+
+.password-field {
+  padding-bottom: 20px;
+ position: relative;
+}
+
+.password-rules {
+  position: absolute;
+  top: 100%;
+  left: 2;
+  width: 65%;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 1px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  font-size: 12px; 
+  padding-left:7px
+}
+
+.password-rules ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.password-rules li {
+  margin-bottom: 5px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.footer-link {
+  color: #071656;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #122a89;
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 1px; 
+
+}
+
+.error1 {
+  color: red;
+  font-size: 12px;
+  margin-bottom:4px; 
+  
+}
+/* Tooltip styles */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: left;
+  padding: 10px; 
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  position: absolute;
+  top: 100%; /* Position below the input */
+  left: 0;
+  width: 250px;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  top: -6px; 
+  left: 20px; 
+  width: 10px;
+  height: 10px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+
+.tooltip-container:hover .tooltip,
+.tooltip-container:focus-within .tooltip {
+  visibility: visible;
+  opacity: 1;
+}

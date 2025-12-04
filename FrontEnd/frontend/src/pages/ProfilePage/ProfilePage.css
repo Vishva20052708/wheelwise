@@ -1,0 +1,162 @@
+/* Profile page container */
+.profile-page {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.profile-page h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Profile details container */
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left;  
+  width: 100%;
+}
+
+/* Profile details text (left-aligned) */
+.profile-details p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-details p strong {
+  color: #333;
+}
+
+/* Profile photo container for view-only mode */
+.profile-photo-container {
+  display: flex;
+  justify-content: center;  /* Center the profile photo */
+  align-items: center;      /* Center the profile photo */
+  margin-bottom: 20px;      /* Add space below the photo */
+  width: 100%;
+}
+
+/* Profile photo styling */
+.profile-photo {
+  width: 100px;             /* Profile photo width */
+  height: 100px;            /* Profile photo height */
+  object-fit: cover;        /* Ensure the image covers the container without distortion */
+  border-radius: 50%;       /* Makes the image round */
+  border: 2px solid #2196f3; /* Optional: Adds a border around the photo */
+  background-color: #f0f0f0; /* Optional: Sets a background color if no image is uploaded */
+}
+
+/* Edit form container */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Profile photo container for edit mode */
+.profile-photo-container {
+  display: flex;
+  justify-content: center;  /* Center the profile photo container horizontally */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Align profile photo in edit mode */
+.profile-photo-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Label and input fields styling for text fields (left-aligned) */
+.edit-form label {
+  margin-bottom: 15px;
+  text-align: left; /* Ensure labels are aligned to the left */
+}
+
+.edit-form label span {
+  font-size: 14px;
+  color: #333;
+  display: block; /* Ensure the label text is on its own line */
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%; /* Full width for inputs and textareas */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.edit-form input:disabled {
+  background-color: #f5f5f5;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Save and Cancel buttons container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+
+  width: 45%;
+}
+
+.button-container button.cancel {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.button-container button.cancel:hover {
+  background-color: #d32f2f;
+}
+
+.button-container button:not(.cancel) {
+  background-color: #2196f3;
+  color: white;
+}
+
+.button-container button:not(.cancel):hover {
+  background-color: #1976d2;
+}
+
+/* Edit button styling */
+.edit-button {
+  background-color: #2196f3; /* Blue background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add some margin at the top */
+}
+
+/* Hover effect for the Edit button */
+.edit-button:hover {
+  background-color: #1976d2; /* Darker blue on hover */
+}

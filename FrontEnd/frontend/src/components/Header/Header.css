@@ -1,0 +1,87 @@
+/* General header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Logo styling */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 70px;
+  }
+  
+  /* Navigation styling */
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Increased gap between links */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right:20px
+  }
+  
+  .nav-link:hover {
+    color: #a4bacf;
+  }
+  
+  /* User menu styling */
+  .user-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Spacing between icon and username */
+  }
+  
+  .welcome-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .profile-icon {
+    font-size: 24px;
+    color: rgb(224, 202, 202); /* Profile icon color */
+    cursor: pointer;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+    width: 150px;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .dropdown-item:hover {
+    background: #f1f1f1;
+  }
+  
